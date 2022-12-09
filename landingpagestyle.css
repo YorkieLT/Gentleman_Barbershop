@@ -73,3 +73,54 @@ ul {
   list-style-type: none;
   display: flex;
 }
+
+.hero-container {
+  display: flex;
+  color: #F9FAF8;
+  background-color: #1f2937;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+.hero-text {
+  flex-basis: 400px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-right: 100px;
+}
+
+.hero-text p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  text-align: left;
+  color: #E5E7EB;
+  font-weight: 300;
+}
+.hero-text button {
+ display: block;
+  background-color: #3882F8;
+  color: #FFF;
+  border: none;
+  border-radius: 8px;
+  text-align: center;
+  width: 210px;
+  padding: 10px;
+  cursor: pointer;
+  margin-left: 80px;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+h1 {
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+    margin-bottom: 10px;
+}
+
+.hero-image {
+  height: 400px;
+  width: 600px;
+}
