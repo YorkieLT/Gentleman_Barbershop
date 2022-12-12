@@ -227,3 +227,12 @@ h1 {
   padding: 10px;
   cursor: pointer;
 }
+
+footer {
+  background-color: #1f2937;
+  color: #FFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2em 0;
+}
