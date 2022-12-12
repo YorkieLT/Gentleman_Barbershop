@@ -190,3 +190,40 @@ h1 {
   align-self: flex-end;
   margin: 0 0 50px 0;
 }
+
+.signup-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8em 13em;
+}
+
+.signup-content {
+  background-color: #3882F6;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 4em;
+  width: 80%;
+  border-radius: 15px;
+}
+
+.signup-text strong {
+  color: #FFF;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.signup-text p {
+  color: #FFF;
+  font-weight: lighter;
+}
+
+.signup-button button {
+  background: none;
+  color: #FFF;
+  border: 2px solid #FFF;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
